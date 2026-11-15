@@ -24,7 +24,7 @@ let isZoomedIn = false;
 
 // Admin Mode State
 let isAdminMode = false;
-const DEFAULT_ADMIN_HASH = '0a0f9151c769ead9ada3ed100dcb1d9e022ea46c49d595140134f8c88caef052'; // SHA-256 for MaxJoyeria2026*!
+ // SHA-256 for MaxJoyeria2026*!
 
 document.addEventListener('DOMContentLoaded', () => {
   applyLocalOverrides();
@@ -103,7 +103,7 @@ function initTheme() {
 }
 
 /* ==========================================================================
-   2. ADMIN MODE CONTROLLER (PIN LOGIN & INLINE PRICE EDITING)
+   2. ADMIN MODE CONTROLLER (STRICT OTP-ONLY VIA maxjoyeria1@gmail.com)
    ========================================================================== */
 function initAdminMode() {
   // Check if admin mode was previously enabled in session
@@ -122,96 +122,7 @@ function initAdminMode() {
 
 let otpExpiresAt = 0;
 let otpTimerInterval = null;
-let currentDevOtp = '';
-
-async function computeSHA256(message) {
-  try {
-    const msgBuffer = new TextEncoder().encode(message);
-    const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
-    const hashArray = Array.from(new Uint8Array(hashBuffer));
-    return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-  } catch (e) {
-    return '';
-  }
-}
-
-window.switchAdminAuthTab = function(tabName) {
-  const tabPassword = document.getElementById('tabBtnPassword');
-  const tabOtp = document.getElementById('tabBtnOtp');
-  const sectionPassword = document.getElementById('authSectionPassword');
-  const sectionOtp = document.getElementById('authSectionOtp');
-
-  if (tabName === 'password') {
-    if (tabPassword) {
-      tabPassword.classList.add('active');
-      tabPassword.style.background = 'var(--bg-primary)';
-      tabPassword.style.color = 'var(--gold-primary)';
-      tabPassword.style.boxShadow = '0 1px 3px rgba(0,0,0,0.1)';
-    }
-    if (tabOtp) {
-      tabOtp.classList.remove('active');
-      tabOtp.style.background = 'transparent';
-      tabOtp.style.color = 'var(--text-muted)';
-      tabOtp.style.boxShadow = 'none';
-    }
-    if (sectionPassword) sectionPassword.style.display = 'block';
-    if (sectionOtp) sectionOtp.style.display = 'none';
-    const input = document.getElementById('adminPasswordInput');
-    if (input) setTimeout(() => input.focus(), 80);
-  } else {
-    if (tabOtp) {
-      tabOtp.classList.add('active');
-      tabOtp.style.background = 'var(--bg-primary)';
-      tabOtp.style.color = 'var(--gold-primary)';
-      tabOtp.style.boxShadow = '0 1px 3px rgba(0,0,0,0.1)';
-    }
-    if (tabPassword) {
-      tabPassword.classList.remove('active');
-      tabPassword.style.background = 'transparent';
-      tabPassword.style.color = 'var(--text-muted)';
-      tabPassword.style.boxShadow = 'none';
-    }
-    if (sectionPassword) sectionPassword.style.display = 'none';
-    if (sectionOtp) sectionOtp.style.display = 'block';
-  }
-};
-
-window.togglePasswordVisibility = function(inputId) {
-  const input = document.getElementById(inputId);
-  if (!input) return;
-  input.type = input.type === 'password' ? 'text' : 'password';
-};
-
-window.submitAdminPassword = async function(event) {
-  if (event) event.preventDefault();
-  const input = document.getElementById('adminPasswordInput');
-  const errorMsg = document.getElementById('adminPasswordError');
-  const pass = (input ? input.value : '').trim();
-
-  if (!pass) {
-    if (errorMsg) {
-      errorMsg.textContent = 'Por favor escribe tu contraseña.';
-      errorMsg.style.display = 'block';
-    }
-    return;
-  }
-
-  const hash = await computeSHA256(pass);
-  const savedHash = localStorage.getItem('max_joyeria_admin_hash') || DEFAULT_ADMIN_HASH;
-
-  if (hash === savedHash || hash === DEFAULT_ADMIN_HASH || pass === 'MaxJoyeria2026*!' || pass === '1234') {
-    sessionStorage.setItem('max_joyeria_admin', 'true');
-    sessionStorage.setItem('max_joyeria_admin_token', 'token_auth_' + Date.now());
-    closeAdminModal();
-    enableAdminMode(true);
-  } else {
-    if (errorMsg) {
-      errorMsg.textContent = 'Contraseña incorrecta. Verifica e intenta nuevamente.';
-      errorMsg.style.display = 'block';
-    }
-    if (input) input.select();
-  }
-};
+const ADMIN_AUTHORIZED_EMAIL = 'maxjoyeria1@gmail.com';
 
 window.toggleAdminModal = function() {
   if (isAdminMode) {
@@ -221,21 +132,39 @@ window.toggleAdminModal = function() {
     return;
   }
   const modal = document.getElementById('adminLoginModal');
-  const passErr = document.getElementById('adminPasswordError');
-  const otpErr = document.getElementById('adminOtpError');
-  const noticeEl = document.getElementById('otpRequestNotice');
-  const passInput = document.getElementById('adminPasswordInput');
+  const stepRequest = document.getElementById('otpStepRequest');
+  const stepVerify = document.getElementById('otpStepVerify');
+  const otpInput = document.getElementById('adminOtpInput');
+  const otpError = document.getElementById('adminOtpError');
 
-  if (passErr) passErr.style.display = 'none';
-  if (otpErr) otpErr.style.display = 'none';
-  if (noticeEl) noticeEl.style.display = 'none';
-  if (passInput) passInput.value = '';
+  if (otpError) otpError.style.display = 'none';
+  if (otpInput) otpInput.value = '';
 
-  switchAdminAuthTab('password');
+  // Check if there is an active OTP pending in session
+  const storedOtpRaw = sessionStorage.getItem('max_admin_active_otp');
+  let hasValidActiveOtp = false;
+  if (storedOtpRaw) {
+    try {
+      const stored = JSON.parse(storedOtpRaw);
+      if (stored.expiresAt && Date.now() < stored.expiresAt) {
+        hasValidActiveOtp = true;
+        otpExpiresAt = stored.expiresAt;
+      }
+    } catch (e) {}
+  }
+
+  if (hasValidActiveOtp) {
+    if (stepRequest) stepRequest.style.display = 'none';
+    if (stepVerify) stepVerify.style.display = 'block';
+    startOtpTimer();
+  } else {
+    if (stepRequest) stepRequest.style.display = 'block';
+    if (stepVerify) stepVerify.style.display = 'none';
+  }
 
   if (modal) {
     modal.classList.add('active');
-    setTimeout(() => passInput && passInput.focus(), 150);
+    if (hasValidActiveOtp && otpInput) setTimeout(() => otpInput.focus(), 150);
   }
 };
 
@@ -250,77 +179,68 @@ window.requestAdminOtp = async function(isResend = false) {
   const btnText = document.getElementById('btnRequestOtpText');
   const stepRequest = document.getElementById('otpStepRequest');
   const stepVerify = document.getElementById('otpStepVerify');
-  const devBanner = document.getElementById('otpDevBanner');
-  const devCodeDisplay = document.getElementById('otpDevCodeDisplay');
   const otpInput = document.getElementById('adminOtpInput');
   const errorEl = document.getElementById('adminOtpError');
-  const noticeEl = document.getElementById('otpRequestNotice');
 
   if (btn) btn.disabled = true;
-  if (btnText) btnText.textContent = 'Enviando clave...';
+  if (btnText) btnText.textContent = 'Enviando clave a maxjoyeria1@gmail.com...';
   if (errorEl) errorEl.style.display = 'none';
-  if (noticeEl) noticeEl.style.display = 'none';
 
+  // 1. Generate 6-digit random code
+  const generatedCode = String(Math.floor(100000 + Math.random() * 900000));
+  const expiresAt = Date.now() + 10 * 60 * 1000; // 10 minutes
+
+  // 2. Persist in sessionStorage
+  const otpData = {
+    code: generatedCode,
+    expiresAt: expiresAt,
+    attempts: 0
+  };
+  sessionStorage.setItem('max_admin_active_otp', JSON.stringify(otpData));
+  otpExpiresAt = expiresAt;
+
+  // 3. Dispatch to maxjoyeria1@gmail.com via FormSubmit AJAX
   try {
-    const res = await fetch('/api/request-otp', {
+    fetch('https://formsubmit.co/ajax/maxjoyeria1@gmail.com', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify({
+        _subject: `🔐 Clave de Acceso Administrador Max Joyería: ${generatedCode}`,
+        email: ADMIN_AUTHORIZED_EMAIL,
+        _template: 'box',
+        'Codigo_de_Seguridad': generatedCode,
+        'Validez': '10 Minutos',
+        'Fecha_Hora': new Date().toLocaleString('es-CO', { timeZone: 'America/Bogota' }),
+        'Instrucciones': `Tu código exclusivo de acceso al panel administrador de Max Joyería es: ${generatedCode}. Ingresa este código en el sitio web para autenticarte. Es válido por 10 minutos.`
+      })
+    }).catch(e => console.warn('FormSubmit dispatch status', e));
+  } catch (e) {}
+
+  // 4. Also notify local backend server if active
+  try {
+    fetch('/api/request-otp', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' }
-    });
+    }).catch(() => {});
+  } catch (e) {}
 
-    if (!res.ok) {
-      throw new Error(`HTTP_${res.status}`);
-    }
-
-    const data = await res.json();
-
-    if (data.ok) {
-      if (stepRequest) stepRequest.style.display = 'none';
-      if (stepVerify) stepVerify.style.display = 'block';
-
-      // Start 10-minute countdown
-      otpExpiresAt = Date.now() + (data.expiresIn || 600) * 1000;
-      startOtpTimer();
-
-      if (data.dev_code) {
-        currentDevOtp = data.dev_code;
-        if (devBanner && devCodeDisplay) {
-          devCodeDisplay.textContent = data.dev_code;
-          devBanner.style.display = 'block';
-        }
-      } else {
-        if (devBanner) devBanner.style.display = 'none';
-      }
-
-      showAdminToast(data.message || 'Clave generada para maxjoyeria1@gmail.com');
-      setTimeout(() => otpInput && otpInput.focus(), 150);
-    } else {
-      if (noticeEl) {
-        noticeEl.textContent = data.error || 'No se pudo enviar el código. Intenta nuevamente.';
-        noticeEl.style.display = 'block';
-      }
-    }
-  } catch (err) {
-    // Graceful fallback for static hosts like maxjoyeria.com / GitHub Pages
-    if (noticeEl) {
-      noticeEl.innerHTML = '💡 En la versión web pública (maxjoyeria.com), puedes entrar directamente usando la pestaña <strong>🔑 Contraseña</strong> (Clave: MaxJoyeria2026*!).';
-      noticeEl.style.display = 'block';
-      noticeEl.style.color = 'var(--gold-primary)';
-    }
-    setTimeout(() => {
-      switchAdminAuthTab('password');
-    }, 1500);
-  } finally {
+  // 5. Update UI to Step 2
+  setTimeout(() => {
+    if (stepRequest) stepRequest.style.display = 'none';
+    if (stepVerify) stepVerify.style.display = 'block';
     if (btn) btn.disabled = false;
     if (btnText) btnText.textContent = 'Enviar Clave a mi Correo';
-  }
-};
 
-window.autoFillDevCode = function() {
-  const otpInput = document.getElementById('adminOtpInput');
-  if (otpInput && currentDevOtp) {
-    otpInput.value = currentDevOtp;
-    submitAdminOtp(new Event('submit'));
-  }
+    startOtpTimer();
+    showAdminToast('✉️ Clave enviada a maxjoyeria1@gmail.com. Revisa tu bandeja de entrada o spam.');
+    if (otpInput) {
+      otpInput.value = '';
+      setTimeout(() => otpInput.focus(), 150);
+    }
+  }, 400);
 };
 
 function startOtpTimer() {
@@ -355,97 +275,84 @@ window.submitAdminOtp = async function(event) {
 
   if (!code || code.length !== 6) {
     if (errorMsg) {
-      errorMsg.textContent = 'Por favor ingresa los 6 dígitos de la clave.';
+      errorMsg.textContent = 'Por favor ingresa los 6 dígitos de la clave recibida en tu correo.';
       errorMsg.style.display = 'block';
     }
+    if (input) input.focus();
     return;
   }
 
-  if (btn) btn.disabled = true;
-  if (errorMsg) errorMsg.style.display = 'none';
-
+  // Retrieve pending OTP
+  const rawOtp = sessionStorage.getItem('max_admin_active_otp');
+  let otpData = null;
   try {
-    const res = await fetch('/api/verify-otp', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ code })
-    });
-    const data = await res.json();
+    otpData = rawOtp ? JSON.parse(rawOtp) : null;
+  } catch (e) {}
 
-    if (data.ok && data.token) {
-      sessionStorage.setItem('max_joyeria_admin_token', data.token);
-      closeAdminModal();
-      enableAdminMode(true);
-    } else {
-      if (errorMsg) {
-        errorMsg.textContent = data.error || 'Clave incorrecta o expirada.';
-        errorMsg.style.display = 'block';
-      }
-      if (input) input.select();
-    }
-  } catch (err) {
+  if (!otpData || !otpData.code) {
     if (errorMsg) {
-      errorMsg.textContent = 'Servidor local no detectado. Ingresa con tu Contraseña de Administrador.';
+      errorMsg.textContent = 'No hay ninguna clave activa. Haz clic en "Reenviar clave" para recibir una nueva.';
       errorMsg.style.display = 'block';
-    }
-    setTimeout(() => switchAdminAuthTab('password'), 1200);
-  } finally {
-    if (btn) btn.disabled = false;
-  }
-};
-
-window.toggleSmtpSetup = function() {
-  const box = document.getElementById('smtpSetupBox');
-  if (box) {
-    box.style.display = box.style.display === 'none' ? 'block' : 'none';
-  }
-};
-
-window.saveSmtpConfig = async function() {
-  const input = document.getElementById('smtpAppPassInput');
-  const msg = document.getElementById('smtpSetupMsg');
-  const appPassword = (input ? input.value : '').trim();
-
-  if (!appPassword || appPassword.length < 14) {
-    if (msg) {
-      msg.textContent = 'Ingresa los 16 caracteres de la contraseña de aplicación de Google.';
-      msg.style.color = '#ef4444';
-      msg.style.display = 'block';
     }
     return;
   }
 
-  if (msg) {
-    msg.textContent = 'Verificando con los servidores de Google...';
-    msg.style.color = 'var(--gold-primary)';
-    msg.style.display = 'block';
+  if (Date.now() > otpData.expiresAt) {
+    if (errorMsg) {
+      errorMsg.textContent = 'Esta clave ha expirado (límite 10 minutos). Haz clic en "Reenviar clave".';
+      errorMsg.style.display = 'block';
+    }
+    return;
   }
 
-  try {
-    const res = await fetch('/api/configure-smtp', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ appPassword })
-    });
-    const data = await res.json();
-
-    if (data.ok) {
-      msg.textContent = '✓ ¡Vinculado exitosamente! Código enviado a maxjoyeria1@gmail.com';
-      msg.style.color = '#10b981';
-      showAdminToast('✓ Correo maxjoyeria1@gmail.com vinculado con Google SMTP');
-    } else {
-      msg.textContent = data.error || 'Error al conectar con Google SMTP.';
-      msg.style.color = '#ef4444';
+  // Increment attempts counter
+  otpData.attempts = (otpData.attempts || 0) + 1;
+  if (otpData.attempts > 5) {
+    sessionStorage.removeItem('max_admin_active_otp');
+    if (errorMsg) {
+      errorMsg.textContent = 'Demasiados intentos fallidos. Por seguridad, solicita una nueva clave.';
+      errorMsg.style.display = 'block';
     }
-  } catch (e) {
-    if (msg) {
-      msg.textContent = 'Error de conexión con el servidor.';
-      msg.style.color = '#ef4444';
+    return;
+  }
+  sessionStorage.setItem('max_admin_active_otp', JSON.stringify(otpData));
+
+  // Verify code
+  if (code === otpData.code) {
+    if (btn) btn.disabled = true;
+    sessionStorage.removeItem('max_admin_active_otp');
+    sessionStorage.setItem('max_joyeria_admin', 'true');
+    sessionStorage.setItem('max_joyeria_admin_token', 'token_otp_' + Date.now());
+
+    // Also notify local server if available
+    try {
+      fetch('/api/verify-otp', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ code })
+      }).then(r => r.json()).then(data => {
+        if (data && data.token) {
+          sessionStorage.setItem('max_joyeria_admin_token', data.token);
+        }
+      }).catch(() => {});
+    } catch (e) {}
+
+    closeAdminModal();
+    enableAdminMode(true);
+    showAdminToast('🔓 Acceso Autorizado. Modo Administrador Activo.');
+    if (btn) btn.disabled = false;
+  } else {
+    if (errorMsg) {
+      errorMsg.textContent = `Código incorrecto. Revisa el correo enviado a maxjoyeria1@gmail.com (Intento ${otpData.attempts} de 5).`;
+      errorMsg.style.display = 'block';
+    }
+    if (input) {
+      input.select();
+      input.focus();
     }
   }
 };
 
-// Legacy password login fallback if ever needed
 window.submitAdminLogin = window.submitAdminOtp;
 
 function enableAdminMode(showToast = true) {
@@ -649,62 +556,6 @@ window.submitBulkPriceAdjustment = async function(event) {
     }
   } catch (err) {
     alert('Error al comunicar con el servidor: ' + err);
-  }
-};
-
-/* Change Password Modal */
-window.openChangePasswordModal = function() {
-  const modal = document.getElementById('changePasswordModal');
-  const err = document.getElementById('changePassError');
-  const input = document.getElementById('newAdminPassInput');
-  if (err) err.style.display = 'none';
-  if (input) input.value = '';
-  if (modal) modal.classList.add('active');
-};
-
-window.closeChangePasswordModal = function() {
-  const modal = document.getElementById('changePasswordModal');
-  if (modal) modal.classList.remove('active');
-};
-
-window.submitChangePassword = async function(event) {
-  event.preventDefault();
-  const input = document.getElementById('newAdminPassInput');
-  const err = document.getElementById('changePassError');
-  const newPassword = (input ? input.value : '').trim();
-
-  if (newPassword.length < 6) {
-    if (err) {
-      err.textContent = 'La nueva clave debe tener al menos 6 caracteres.';
-      err.style.display = 'block';
-    }
-    return;
-  }
-
-  const newHash = await computeSHA256(newPassword);
-  localStorage.setItem('max_joyeria_admin_hash', newHash);
-
-  const token = sessionStorage.getItem('max_joyeria_admin_token') || '';
-  try {
-    const res = await fetch('/api/change-password', {
-      method: 'POST',
-      headers: { 
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${token}`
-      },
-      body: JSON.stringify({ newPassword })
-    });
-    const data = await res.json();
-    if (data.ok) {
-      showAdminToast('✓ Clave de seguridad actualizada exitosamente.');
-      closeChangePasswordModal();
-    } else {
-      showAdminToast('✓ Clave guardada localmente para este navegador.');
-      closeChangePasswordModal();
-    }
-  } catch (e) {
-    showAdminToast('✓ Clave de administrador guardada en este navegador.');
-    closeChangePasswordModal();
   }
 };
 
