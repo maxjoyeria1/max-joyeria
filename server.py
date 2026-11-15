@@ -2,7 +2,7 @@
 """
 MAX JOYERÍA - SECURE ADMIN API SERVER & EMAIL OTP DISPATCHER
 Includes:
-- Dynamic Email OTP (One-Time Password) to wicontable@gmail.com
+- Dynamic Email OTP (One-Time Password) to maxjoyeria1@gmail.com
 - Real Google SMTP Email Delivery via TLS
 - Fallback Instant Dev Code display if SMTP credentials not yet provided
 - Multi-Threaded HTTP Server (socketserver.ThreadingTCPServer)
@@ -27,7 +27,7 @@ PORT = 8080
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PRODUCTS_FILE = os.path.join(BASE_DIR, 'data', 'products.js')
 CONFIG_FILE = os.path.join(BASE_DIR, 'admin_config.json')
-ADMIN_EMAIL = "wicontable@gmail.com"
+ADMIN_EMAIL = "maxjoyeria1@gmail.com"
 
 # In-memory security stores
 active_tokens = {}      # token -> expiration_timestamp
@@ -149,6 +149,8 @@ class MaxJoyeriaHandler(http.server.SimpleHTTPRequestHandler):
             self.handle_change_password()
         elif self.path == '/api/update-price':
             self.handle_update_price()
+        elif self.path == '/api/update-product':
+            self.handle_update_product()
         elif self.path == '/api/bulk-price':
             self.handle_bulk_price()
         else:
@@ -436,6 +438,66 @@ class MaxJoyeriaHandler(http.server.SimpleHTTPRequestHandler):
 
             self.send_json_response({'ok': True, 'id': prod_id, 'newPrice': new_price})
             print(f"[ADMIN SECURE] Precio actualizado: {prod_id} -> ${new_price:,} COP")
+
+        except Exception as e:
+            self.send_json_response({'ok': False, 'error': str(e)}, status=500)
+
+    def handle_update_product(self):
+        if not self.verify_auth():
+            self.send_json_response({'ok': False, 'error': 'Acceso denegado: Token no válido o expirado.'}, status=401)
+            return
+
+        try:
+            content_length = int(self.headers.get('Content-Length', 0))
+            post_data = self.rfile.read(content_length)
+            payload = json.loads(post_data.decode('utf-8'))
+
+            prod_id = payload.get('id')
+            if not prod_id:
+                self.send_json_response({'ok': False, 'error': 'ID de producto requerido'}, status=400)
+                return
+
+            with open(PRODUCTS_FILE, 'r', encoding='utf-8') as f:
+                content = f.read()
+
+            match = re.search(r'const PRODUCTS_DATA\s*=\s*(\[[\s\S]*?\]);', content)
+            if not match:
+                self.send_json_response({'ok': False, 'error': 'Estructura no encontrada en products.js'}, status=500)
+                return
+
+            products = json.loads(match.group(1))
+
+            target = None
+            for p in products:
+                if str(p.get('id')) == str(prod_id) or str(p.get('sku')) == str(prod_id):
+                    target = p
+                    break
+
+            if not target:
+                self.send_json_response({'ok': False, 'error': 'Producto no encontrado'}, status=404)
+                return
+
+            # Apply fields if present in payload
+            if 'price' in payload:
+                target['price'] = max(0, int(payload['price']))
+            if 'availability' in payload:
+                avail = str(payload['availability']).strip().lower()
+                if avail in ['disponible', 'sobre_pedido', 'agotado']:
+                    target['availability'] = avail
+            if 'stock' in payload:
+                target['stock'] = max(0, int(payload['stock']))
+            if 'hidden' in payload:
+                target['hidden'] = bool(payload['hidden'])
+
+            with open(PRODUCTS_FILE, 'w', encoding='utf-8') as f:
+                f.write('// Auto-generated catalogue database with 407 products from orolaminado18.com\n')
+                f.write('// Enriched with real authentic descriptions, features, and technical specifications\n')
+                f.write('const PRODUCTS_DATA = ')
+                json.dump(products, f, ensure_ascii=False, indent=2)
+                f.write(';\n\nif (typeof module !== "undefined" && module.exports) {\n  module.exports = { PRODUCTS_DATA };\n}\n')
+
+            self.send_json_response({'ok': True, 'product': target})
+            print(f"[ADMIN SECURE] Producto actualizado: {prod_id} (Precio={target.get('price')}, Disp={target.get('availability')}, Stock={target.get('stock')}, Oculto={target.get('hidden')})")
 
         except Exception as e:
             self.send_json_response({'ok': False, 'error': str(e)}, status=500)

@@ -158,7 +158,7 @@ window.requestAdminOtp = async function(isResend = false) {
         if (devBanner) devBanner.style.display = 'none';
       }
 
-      showAdminToast(data.message || 'Clave generada para wicontable@gmail.com');
+      showAdminToast(data.message || 'Clave generada para maxjoyeria1@gmail.com');
       setTimeout(() => otpInput && otpInput.focus(), 150);
     } else {
       alert(data.error || 'No se pudo enviar el código. Intenta nuevamente.');
@@ -285,9 +285,9 @@ window.saveSmtpConfig = async function() {
     const data = await res.json();
 
     if (data.ok) {
-      msg.textContent = '✓ ¡Vinculado exitosamente! Código enviado a wicontable@gmail.com';
+      msg.textContent = '✓ ¡Vinculado exitosamente! Código enviado a maxjoyeria1@gmail.com';
       msg.style.color = '#10b981';
-      showAdminToast('✓ Correo wicontable@gmail.com vinculado con Google SMTP');
+      showAdminToast('✓ Correo maxjoyeria1@gmail.com vinculado con Google SMTP');
     } else {
       msg.textContent = data.error || 'Error al conectar con Google SMTP.';
       msg.style.color = '#ef4444';
@@ -310,6 +310,8 @@ function enableAdminMode(showToast = true) {
   if (showToast) {
     showAdminToast('🔓 Sesión de Administrador iniciada de forma segura.');
   }
+  renderSubcategoryPills();
+  renderProducts();
 }
 
 window.disableAdminMode = async function() {
@@ -323,10 +325,12 @@ window.disableAdminMode = async function() {
     } catch (_) {}
   }
   isAdminMode = false;
+  adminVisibilityFilter = 'all';
   sessionStorage.removeItem('max_joyeria_admin');
   sessionStorage.removeItem('max_joyeria_admin_token');
   document.body.classList.remove('admin-mode-active');
   showAdminToast('🔒 Sesión de Administrador cerrada.');
+  renderSubcategoryPills();
   renderProducts();
 };
 
@@ -573,6 +577,126 @@ function showAdminToast(msg) {
 }
 
 /* ==========================================================================
+   ADMIN INVENTORY & VISIBILITY CONTROLLER
+   ========================================================================== */
+let adminVisibilityFilter = 'all'; // 'all' | 'visible' | 'hidden'
+
+window.setAdminVisibilityFilter = function(filter) {
+  adminVisibilityFilter = filter;
+  ['All', 'Vis', 'Hid'].forEach(k => {
+    const btn = document.getElementById(`adminFilter${k}Btn`);
+    if (btn) btn.classList.remove('active');
+  });
+  if (filter === 'all') {
+    const b = document.getElementById('adminFilterAllBtn');
+    if (b) b.classList.add('active');
+  } else if (filter === 'visible') {
+    const b = document.getElementById('adminFilterVisBtn');
+    if (b) b.classList.add('active');
+  } else if (filter === 'hidden') {
+    const b = document.getElementById('adminFilterHidBtn');
+    if (b) b.classList.add('active');
+  }
+  visibleCount = PAGE_SIZE;
+  renderProducts();
+};
+
+window.updateProductAvail = async function(prodId, newAvail) {
+  const prod = PRODUCTS_DATA.find(p => p.id === prodId || p.sku === prodId);
+  if (!prod) return;
+  prod.availability = newAvail;
+
+  await saveProductUpdateToServer(prod.id, { availability: newAvail });
+  const label = newAvail === 'disponible' ? '🟢 Disponible' : newAvail === 'sobre_pedido' ? '🟡 Sobre Pedido' : '🔴 Agotado';
+  showAdminToast(`✓ Estado actualizado: ${label}`);
+  renderProducts();
+};
+
+window.promptEditStock = async function(prodId, currentStock, event) {
+  if (event) event.stopPropagation();
+  const prod = PRODUCTS_DATA.find(p => p.id === prodId || p.sku === prodId);
+  if (!prod) return;
+
+  const input = prompt(`Modificar unidades de stock para:\n"${prod.title}"\n(Ref: ${prod.sku}):`, currentStock);
+  if (input === null) return;
+  const newStock = parseInt(input.trim(), 10);
+  if (isNaN(newStock) || newStock < 0) {
+    alert('Ingresa una cantidad numérica válida mayor o igual a 0.');
+    return;
+  }
+
+  prod.stock = newStock;
+  await saveProductUpdateToServer(prod.id, { stock: newStock });
+  showAdminToast(`✓ Stock actualizado: ${newStock} unidades`);
+  renderProducts();
+};
+
+window.toggleProductVisibility = async function(prodId, event) {
+  if (event) event.stopPropagation();
+  const prod = PRODUCTS_DATA.find(p => p.id === prodId || p.sku === prodId);
+  if (!prod) return;
+
+  const nextHidden = !prod.hidden;
+  prod.hidden = nextHidden;
+
+  await saveProductUpdateToServer(prod.id, { hidden: nextHidden });
+  if (nextHidden) {
+    showAdminToast(`🚫 Joya ocultada del catálogo público`);
+  } else {
+    showAdminToast(`👁️ Joya publicada para todo el público`);
+  }
+  renderSubcategoryPills();
+  renderProducts();
+};
+
+async function saveProductUpdateToServer(prodId, fields) {
+  const token = sessionStorage.getItem('max_joyeria_admin_token') || '';
+  try {
+    const res = await fetch('/api/update-product', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${token}`
+      },
+      body: JSON.stringify({ id: prodId, ...fields })
+    });
+    const data = await res.json();
+    return data;
+  } catch (err) {
+    console.warn('Error al guardar en servidor:', err);
+  }
+}
+
+window.handleZoomAvailChange = async function(newAvail) {
+  if (!activeZoomProduct) return;
+  await updateProductAvail(activeZoomProduct.id, newAvail);
+  activeZoomProduct.availability = newAvail;
+  openProductZoom(activeZoomProduct.id, 0);
+};
+
+window.handleZoomStockSave = async function() {
+  if (!activeZoomProduct) return;
+  const input = document.getElementById('zoomAdminStockInput');
+  if (!input) return;
+  const newStock = parseInt(input.value.trim(), 10);
+  if (isNaN(newStock) || newStock < 0) {
+    alert('Ingresa un número válido para el stock.');
+    return;
+  }
+  activeZoomProduct.stock = newStock;
+  await saveProductUpdateToServer(activeZoomProduct.id, { stock: newStock });
+  showAdminToast(`✓ Stock actualizado: ${newStock} unidades`);
+  openProductZoom(activeZoomProduct.id, 0);
+  renderProducts();
+};
+
+window.handleZoomVisibilityToggle = async function() {
+  if (!activeZoomProduct) return;
+  await toggleProductVisibility(activeZoomProduct.id);
+  openProductZoom(activeZoomProduct.id, 0);
+};
+
+/* ==========================================================================
    3. CATEGORY & SUBCATEGORY NAVIGATION
    ========================================================================== */
 function initCatalogFilters() {
@@ -596,9 +720,11 @@ function renderSubcategoryPills() {
   const pillsContainer = document.getElementById('subcatPillsContainer');
   if (!pillsContainer || typeof PRODUCTS_DATA === 'undefined') return;
 
-  const relevantProducts = currentMetal === 'all' 
-    ? PRODUCTS_DATA 
-    : PRODUCTS_DATA.filter(p => p.metal === currentMetal);
+  const relevantProducts = PRODUCTS_DATA.filter(p => {
+    if (!isAdminMode && p.hidden) return false;
+    if (currentMetal !== 'all' && p.metal !== currentMetal) return false;
+    return true;
+  });
 
   const subcatCounts = {};
   relevantProducts.forEach(p => {
@@ -692,6 +818,13 @@ function getFilteredProducts() {
   if (typeof PRODUCTS_DATA === 'undefined') return [];
 
   return PRODUCTS_DATA.filter(item => {
+    // Hide from public when item.hidden is true
+    if (!isAdminMode && item.hidden) return false;
+
+    // In admin mode, respect visibility filter
+    if (isAdminMode && adminVisibilityFilter === 'visible' && item.hidden) return false;
+    if (isAdminMode && adminVisibilityFilter === 'hidden' && !item.hidden) return false;
+
     if (currentMetal !== 'all' && item.metal !== currentMetal) return false;
     if (currentSubcategory !== 'all' && item.collection !== currentSubcategory) return false;
     if (currentSearch) {
@@ -762,14 +895,31 @@ function renderProducts() {
     const waUrl = getWhatsAppBuyUrl(prod, qty);
     const displayTitle = formatJewelryTitle(prod.title);
     const isAboveFold = cardIndex < 4;
+    const isHidden = !!prod.hidden;
+    const avail = prod.availability || 'disponible';
+
+    let availTagHtml = '';
+    if (avail === 'sobre_pedido') {
+      availTagHtml = '<span class="card-tag-avail sobre-pedido">🟡 Sobre Pedido</span>';
+    } else if (avail === 'agotado') {
+      availTagHtml = '<span class="card-tag-avail agotado">🔴 Agotado</span>';
+    } else {
+      availTagHtml = `<span class="card-tag-avail disponible">🟢 Disponible (${prod.stock !== undefined ? prod.stock : 5} unid.)</span>`;
+    }
+
+    let buyBtnLabel = 'Comprar';
+    if (avail === 'agotado') buyBtnLabel = 'Consultar';
+    else if (avail === 'sobre_pedido') buyBtnLabel = 'Encargar';
 
     return `
-      <article class="product-card" id="card-${prod.id}" data-id="${prod.id}">
+      <article class="product-card ${isHidden ? 'is-hidden' : ''}" id="card-${prod.id}" data-id="${prod.id}">
         
         <!-- Media / Image Carousel with Zoom Trigger -->
         <div class="prod-media-container" onclick="openProductZoom('${prod.id}', 0)">
           <span class="card-tag-metal">${prod.collectionName}</span>
           <span class="card-tag-ref">Ref: ${prod.sku}</span>
+          ${isHidden ? '<span class="card-tag-hidden">🚫 Oculto al Público</span>' : ''}
+          ${availTagHtml}
 
           <!-- Zoom Trigger Button -->
           <button class="card-zoom-pill" onclick="event.stopPropagation(); openProductZoom('${prod.id}', 0)" title="Ampliar imagen en alta resolución">
@@ -858,9 +1008,36 @@ function renderProducts() {
               title="Pedir este producto por WhatsApp"
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
-              <span>Comprar</span>
+              <span>${buyBtnLabel}</span>
             </a>
           </div>
+
+          <!-- Admin Quick Management Strip -->
+          ${isAdminMode ? `
+            <div class="card-admin-strip" onclick="event.stopPropagation()">
+              <div class="admin-strip-row">
+                <span class="admin-strip-label">Estado:</span>
+                <select class="admin-avail-select" onchange="updateProductAvail('${prod.id}', this.value)">
+                  <option value="disponible" ${avail === 'disponible' ? 'selected' : ''}>🟢 Disponible</option>
+                  <option value="sobre_pedido" ${avail === 'sobre_pedido' ? 'selected' : ''}>🟡 Sobre Pedido</option>
+                  <option value="agotado" ${avail === 'agotado' ? 'selected' : ''}>🔴 Agotado</option>
+                </select>
+              </div>
+
+              ${avail === 'disponible' ? `
+                <div class="admin-strip-row">
+                  <span class="admin-strip-label">Stock:</span>
+                  <button class="admin-stock-btn" onclick="promptEditStock('${prod.id}', ${prod.stock !== undefined ? prod.stock : 5}, event)" title="Editar unidades de stock">
+                    📦 <strong>${prod.stock !== undefined ? prod.stock : 5}</strong> unid. ✏️
+                  </button>
+                </div>
+              ` : ''}
+
+              <button class="admin-vis-btn ${isHidden ? 'btn-unhide' : 'btn-hide'}" onclick="toggleProductVisibility('${prod.id}', event)">
+                ${isHidden ? '👁️ Publicar Joya' : '🚫 Ocultar del Público'}
+              </button>
+            </div>
+          ` : ''}
 
         </div>
 
@@ -939,10 +1116,18 @@ function getWhatsAppBuyUrl(prod, qty = 1) {
   const unitPriceFormatted = formatCOP(prod.price);
   const totalPriceFormatted = formatCOP(prod.price * qty);
   const mainImage = (prod.images && prod.images.length > 0) ? prod.images[0] : '';
+  const avail = prod.availability || 'disponible';
 
-  let message = `Hola, vengo del catalogo y quiero pedir:\n\nProducto: ${prod.title}\nReferencia: ${prod.sku}\nPrecio: ${unitPriceFormatted}`;
+  let message = '';
+  if (avail === 'sobre_pedido') {
+    message = `Hola Max Joyería, deseo encargar Sobre Pedido la joya:\n\nProducto: ${prod.title}\nReferencia: ${prod.sku}\nPrecio sugerido: ${unitPriceFormatted}`;
+  } else if (avail === 'agotado') {
+    message = `Hola Max Joyería, deseo consultar disponibilidad futura de la joya agotada:\n\nProducto: ${prod.title}\nReferencia: ${prod.sku}\nPrecio: ${unitPriceFormatted}`;
+  } else {
+    message = `Hola, vengo del catalogo y quiero pedir:\n\nProducto: ${prod.title}\nReferencia: ${prod.sku}\nPrecio: ${unitPriceFormatted}`;
+  }
 
-  if (qty > 1) {
+  if (qty > 1 && avail !== 'agotado') {
     message += `\nCantidad: ${qty}\nTotal: ${totalPriceFormatted}`;
   }
 
@@ -1099,8 +1284,65 @@ window.openProductZoom = function(prodId, imageIndex = 0) {
     }
   }
 
+  // Availability status bar
+  const availBar = document.getElementById('zoomAvailStatusBar');
+  const avail = prod.availability || 'disponible';
+  if (availBar) {
+    if (avail === 'sobre_pedido') {
+      availBar.innerHTML = '<div class="zoom-avail-chip sobre-pedido">🟡 Joya Sobre Pedido (Tiempo estimado de elaboración / despacho)</div>';
+    } else if (avail === 'agotado') {
+      availBar.innerHTML = '<div class="zoom-avail-chip agotado">🔴 Joya Agotada Temporalmente</div>';
+    } else {
+      availBar.innerHTML = `<div class="zoom-avail-chip disponible">🟢 Pieza Disponible • <strong>${prod.stock !== undefined ? prod.stock : 5} unidades</strong> en stock para despacho inmediato</div>`;
+    }
+  }
+
+  // Dedicated Admin Manager Box inside Zoom Modal
+  const adminBox = document.getElementById('zoomAdminManagerBox');
+  if (adminBox) {
+    if (isAdminMode) {
+      adminBox.style.display = 'block';
+      const availSelect = document.getElementById('zoomAdminAvailSelect');
+      const stockInput = document.getElementById('zoomAdminStockInput');
+      const stockGroup = document.getElementById('zoomAdminStockGroup');
+      const visBtn = document.getElementById('zoomAdminVisibilityBtn');
+
+      if (availSelect) availSelect.value = avail;
+      if (stockInput) stockInput.value = prod.stock !== undefined ? prod.stock : 5;
+      if (stockGroup) stockGroup.style.display = (avail === 'disponible') ? 'block' : 'none';
+
+      if (visBtn) {
+        if (prod.hidden) {
+          visBtn.textContent = '🚫 Joya Oculta (Clic para Publicar)';
+          visBtn.className = 'btn-admin-vis-toggle is-hidden-btn';
+        } else {
+          visBtn.textContent = '👁️ Joya Visible (Clic para Ocultar)';
+          visBtn.className = 'btn-admin-vis-toggle is-visible-btn';
+        }
+      }
+    } else {
+      adminBox.style.display = 'none';
+    }
+  }
+
   if (buyBtn) {
     buyBtn.href = getWhatsAppBuyUrl(prod, currentQty);
+    if (avail === 'agotado') {
+      buyBtn.innerHTML = `
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+        <span>Consultar Disponibilidad</span>
+      `;
+    } else if (avail === 'sobre_pedido') {
+      buyBtn.innerHTML = `
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+        <span>Encargar Sobre Pedido</span>
+      `;
+    } else {
+      buyBtn.innerHTML = `
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+        <span>Comprar por WhatsApp</span>
+      `;
+    }
   }
 
   const activeImgUrl = (prod.images && prod.images[imageIndex]) ? prod.images[imageIndex] : (prod.images[0] || '');

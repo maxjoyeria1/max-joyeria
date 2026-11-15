@@ -1963,3 +1963,317 @@ body.admin-mode-active .admin-edit-price-btn {
   transform: translateY(0);
   opacity: 1;
 }
+
+/* ==========================================================================
+   PRODUCT AVAILABILITY, STOCK & VISIBILITY CONTROLS (ADMIN SYSTEM)
+   ========================================================================== */
+
+/* Badges on Card Media */
+.card-tag-avail {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  z-index: 5;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-tag-avail.disponible {
+  background: rgba(16, 185, 129, 0.92);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.card-tag-avail.sobre-pedido {
+  background: rgba(217, 119, 6, 0.95);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.card-tag-avail.agotado {
+  background: rgba(220, 38, 38, 0.92);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.card-tag-hidden {
+  position: absolute;
+  top: 36px;
+  left: 8px;
+  background: rgba(185, 28, 28, 0.95);
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  z-index: 5;
+  border: 1px solid #f87171;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.product-card.is-hidden {
+  opacity: 0.82;
+  border: 2px dashed #ef4444;
+}
+
+/* Card Admin Management Strip */
+.card-admin-strip {
+  margin-top: 10px;
+  padding: 10px;
+  background: rgba(212, 175, 55, 0.08);
+  border: 1px solid rgba(212, 175, 55, 0.28);
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.admin-strip-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.admin-strip-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.admin-avail-select {
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  font-size: 0.72rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.admin-stock-btn {
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  font-size: 0.72rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.admin-stock-btn:hover {
+  border-color: var(--gold-primary);
+  color: var(--gold-primary);
+}
+
+.admin-vis-btn {
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.admin-vis-btn.btn-hide {
+  background: rgba(239, 68, 68, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.35);
+  color: #ef4444;
+}
+
+.admin-vis-btn.btn-hide:hover {
+  background: #ef4444;
+  color: #fff;
+}
+
+.admin-vis-btn.btn-unhide {
+  background: rgba(16, 185, 129, 0.15);
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  color: #10b981;
+}
+
+.admin-vis-btn.btn-unhide:hover {
+  background: #10b981;
+  color: #fff;
+}
+
+/* Zoom Modal Admin Box */
+.zoom-avail-status-bar .zoom-avail-chip {
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.zoom-avail-chip.disponible {
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  color: #10b981;
+}
+
+.zoom-avail-chip.sobre-pedido {
+  background: rgba(217, 119, 6, 0.1);
+  border: 1px solid rgba(217, 119, 6, 0.3);
+  color: #d97706;
+}
+
+.zoom-avail-chip.agotado {
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: #ef4444;
+}
+
+.zoom-admin-manager-box {
+  background: var(--bg-surface);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--radius-md);
+  padding: 14px;
+  box-shadow: var(--shadow-sm);
+}
+
+.admin-manager-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.admin-badge-mini {
+  font-size: 0.74rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gold-primary);
+}
+
+.admin-manager-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+@media (max-width: 768px) {
+  .admin-manager-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+.admin-field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.admin-field-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.admin-stock-input {
+  width: 70px;
+  padding: 6px 8px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-primary);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.btn-save-mini {
+  padding: 6px 12px;
+  background: var(--gold-primary);
+  color: #0b0b0d;
+  font-size: 0.74rem;
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.btn-save-mini:hover {
+  background: var(--gold-secondary);
+}
+
+.btn-admin-vis-toggle {
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.76rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.btn-admin-vis-toggle.is-visible-btn {
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.35);
+  color: #ef4444;
+}
+
+.btn-admin-vis-toggle.is-visible-btn:hover {
+  background: #ef4444;
+  color: #fff;
+}
+
+.btn-admin-vis-toggle.is-hidden-btn {
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  color: #10b981;
+}
+
+.btn-admin-vis-toggle.is-hidden-btn:hover {
+  background: #10b981;
+  color: #fff;
+}
+
+/* Floating Admin Bar Visibility Filters */
+.admin-filter-pills {
+  display: flex;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 3px;
+  border-radius: var(--radius-full);
+}
+
+.admin-filter-pill {
+  padding: 5px 12px;
+  border-radius: var(--radius-full);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #aaa;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.admin-filter-pill:hover {
+  color: #fff;
+}
+
+.admin-filter-pill.active {
+  background: var(--gold-primary);
+  color: #0b0b0d;
+}

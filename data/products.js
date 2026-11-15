@@ -1,4 +1,4 @@
-// Auto-generated catalogue database - Max Joyería Oro Laminado 18K
+// Auto-generated catalogue database with 407 products from orolaminado18.com
 // Enriched with real authentic descriptions, features, and technical specifications
 const PRODUCTS_DATA = [
   {
@@ -29,7 +29,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 8,
+    "hidden": true
   },
   {
     "id": "prod_2",
@@ -59,7 +62,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_3",
@@ -89,7 +95,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_4",
@@ -119,7 +128,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_5",
@@ -149,7 +161,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_6",
@@ -179,7 +194,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_7",
@@ -209,7 +227,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_8",
@@ -239,7 +260,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_9",
@@ -269,7 +293,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_10",
@@ -299,7 +326,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_11",
@@ -329,7 +359,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_12",
@@ -359,7 +392,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_13",
@@ -389,7 +425,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_14",
@@ -420,7 +459,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_15",
@@ -451,7 +493,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_16",
@@ -482,7 +527,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_17",
@@ -513,7 +561,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_18",
@@ -544,7 +595,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_19",
@@ -575,7 +629,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_20",
@@ -606,7 +663,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_21",
@@ -637,7 +697,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_22",
@@ -668,7 +731,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_23",
@@ -699,7 +765,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_24",
@@ -731,7 +800,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_25",
@@ -763,7 +835,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_26",
@@ -796,7 +871,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_27",
@@ -828,7 +906,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_28",
@@ -857,7 +938,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_29",
@@ -888,7 +972,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_30",
@@ -919,7 +1006,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_31",
@@ -949,7 +1039,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_32",
@@ -981,7 +1074,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_33",
@@ -1013,7 +1109,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_34",
@@ -1043,7 +1142,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_35",
@@ -1073,7 +1175,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_36",
@@ -1103,7 +1208,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_37",
@@ -1133,7 +1241,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_38",
@@ -1162,7 +1273,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_39",
@@ -1191,7 +1305,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_40",
@@ -1220,7 +1337,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_41",
@@ -1250,7 +1370,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_42",
@@ -1280,7 +1403,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_43",
@@ -1310,7 +1436,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_44",
@@ -1339,7 +1468,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_45",
@@ -1369,7 +1501,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_46",
@@ -1401,7 +1536,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_47",
@@ -1433,7 +1571,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_48",
@@ -1465,7 +1606,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_49",
@@ -1496,7 +1640,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_50",
@@ -1528,7 +1675,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_51",
@@ -1562,7 +1712,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_52",
@@ -1593,7 +1746,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_53",
@@ -1624,7 +1780,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_54",
@@ -1655,7 +1814,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_55",
@@ -1686,7 +1848,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_56",
@@ -1717,7 +1882,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_57",
@@ -1749,7 +1917,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_58",
@@ -1781,7 +1952,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_59",
@@ -1812,7 +1986,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_60",
@@ -1843,7 +2020,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_61",
@@ -1874,7 +2054,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_62",
@@ -1907,7 +2090,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_63",
@@ -1938,7 +2124,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_64",
@@ -1969,7 +2158,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_65",
@@ -2003,7 +2195,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_66",
@@ -2034,7 +2229,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_67",
@@ -2065,7 +2263,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_68",
@@ -2096,7 +2297,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_69",
@@ -2127,7 +2331,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_70",
@@ -2163,7 +2370,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_71",
@@ -2199,7 +2409,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_72",
@@ -2230,7 +2443,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_73",
@@ -2261,7 +2477,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_74",
@@ -2292,7 +2511,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_75",
@@ -2323,7 +2545,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_76",
@@ -2355,7 +2580,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_77",
@@ -2387,7 +2615,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_78",
@@ -2419,7 +2650,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_79",
@@ -2451,7 +2685,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_80",
@@ -2481,7 +2718,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_81",
@@ -2516,7 +2756,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_82",
@@ -2547,7 +2790,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_83",
@@ -2577,7 +2823,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_84",
@@ -2607,7 +2856,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_85",
@@ -2637,7 +2889,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_86",
@@ -2667,7 +2922,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_87",
@@ -2697,7 +2955,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_88",
@@ -2727,7 +2988,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_89",
@@ -2758,7 +3022,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_90",
@@ -2788,7 +3055,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_91",
@@ -2818,7 +3088,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_92",
@@ -2848,7 +3121,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_93",
@@ -2878,7 +3154,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_94",
@@ -2908,7 +3187,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_95",
@@ -2939,7 +3221,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_96",
@@ -2969,7 +3254,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_97",
@@ -2999,7 +3287,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_98",
@@ -3030,7 +3321,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_99",
@@ -3062,7 +3356,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_100",
@@ -3094,7 +3391,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_101",
@@ -3127,7 +3427,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_102",
@@ -3158,7 +3461,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_103",
@@ -3189,7 +3495,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_104",
@@ -3217,7 +3526,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_105",
@@ -3248,7 +3560,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_106",
@@ -3279,7 +3594,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_107",
@@ -3310,7 +3628,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_108",
@@ -3341,7 +3662,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_109",
@@ -3372,7 +3696,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_110",
@@ -3403,7 +3730,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_111",
@@ -3434,7 +3764,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_112",
@@ -3462,7 +3795,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_113",
@@ -3490,7 +3826,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_114",
@@ -3519,7 +3858,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_115",
@@ -3548,7 +3890,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_116",
@@ -3577,7 +3922,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_117",
@@ -3606,7 +3954,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_118",
@@ -3635,7 +3986,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_119",
@@ -3664,7 +4018,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_120",
@@ -3693,7 +4050,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_121",
@@ -3722,7 +4082,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_122",
@@ -3751,7 +4114,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_123",
@@ -3780,7 +4146,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_124",
@@ -3809,7 +4178,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_125",
@@ -3841,7 +4213,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_126",
@@ -3872,7 +4247,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_127",
@@ -3904,7 +4282,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_128",
@@ -3935,7 +4316,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_129",
@@ -3965,7 +4349,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_130",
@@ -3995,7 +4382,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_131",
@@ -4021,7 +4411,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_132",
@@ -4047,7 +4440,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_133",
@@ -4073,7 +4469,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_134",
@@ -4103,7 +4502,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_135",
@@ -4133,7 +4535,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_136",
@@ -4159,7 +4564,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_137",
@@ -4189,7 +4597,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_138",
@@ -4219,7 +4630,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_139",
@@ -4245,7 +4659,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_140",
@@ -4271,7 +4688,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_141",
@@ -4301,7 +4721,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_142",
@@ -4327,7 +4750,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_143",
@@ -4357,7 +4783,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_144",
@@ -4387,7 +4816,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_145",
@@ -4417,7 +4849,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_146",
@@ -4447,7 +4882,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_147",
@@ -4477,7 +4915,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_148",
@@ -4507,7 +4948,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_149",
@@ -4537,7 +4981,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_150",
@@ -4567,7 +5014,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_151",
@@ -4597,7 +5047,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_152",
@@ -4627,7 +5080,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_153",
@@ -4657,7 +5113,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_154",
@@ -4687,7 +5146,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_155",
@@ -4717,7 +5179,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_156",
@@ -4747,7 +5212,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_157",
@@ -4777,7 +5245,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_158",
@@ -4807,7 +5278,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_159",
@@ -4837,7 +5311,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_160",
@@ -4867,7 +5344,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_161",
@@ -4897,7 +5377,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_162",
@@ -4927,7 +5410,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_163",
@@ -4957,7 +5443,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_164",
@@ -4986,7 +5475,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_165",
@@ -5015,7 +5507,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_166",
@@ -5061,7 +5556,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_167",
@@ -5091,7 +5589,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_168",
@@ -5121,7 +5622,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_169",
@@ -5152,7 +5656,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_170",
@@ -5183,7 +5690,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_171",
@@ -5214,7 +5724,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_172",
@@ -5245,7 +5758,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_173",
@@ -5276,7 +5792,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_174",
@@ -5307,7 +5826,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_175",
@@ -5338,7 +5860,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_176",
@@ -5373,7 +5898,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_177",
@@ -5405,7 +5933,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_178",
@@ -5436,7 +5967,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_179",
@@ -5466,7 +6000,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_180",
@@ -5497,7 +6034,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_181",
@@ -5528,7 +6068,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_182",
@@ -5559,7 +6102,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_183",
@@ -5590,7 +6136,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_184",
@@ -5621,7 +6170,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_185",
@@ -5652,7 +6204,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_186",
@@ -5684,7 +6239,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_187",
@@ -5716,7 +6274,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_188",
@@ -5748,7 +6309,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_189",
@@ -5780,7 +6344,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_190",
@@ -5811,7 +6378,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_191",
@@ -5843,7 +6413,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_192",
@@ -5875,7 +6448,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_193",
@@ -5907,7 +6483,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_194",
@@ -5940,7 +6519,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_195",
@@ -5972,7 +6554,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_196",
@@ -6004,7 +6589,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_197",
@@ -6036,7 +6624,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_198",
@@ -6070,7 +6661,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_199",
@@ -6102,7 +6696,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_200",
@@ -6134,7 +6731,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_201",
@@ -6166,7 +6766,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_202",
@@ -6197,7 +6800,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_203",
@@ -6229,7 +6835,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_204",
@@ -6260,7 +6869,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_205",
@@ -6293,7 +6905,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_206",
@@ -6325,7 +6940,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_207",
@@ -6357,7 +6975,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_208",
@@ -6389,7 +7010,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_209",
@@ -6419,7 +7043,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_210",
@@ -6459,7 +7086,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_211",
@@ -6492,7 +7122,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_212",
@@ -6524,7 +7157,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_213",
@@ -6556,7 +7192,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_214",
@@ -6588,7 +7227,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_215",
@@ -6620,7 +7262,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_216",
@@ -6652,7 +7297,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_217",
@@ -6684,7 +7332,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_218",
@@ -6716,7 +7367,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_219",
@@ -6748,7 +7402,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_220",
@@ -6780,7 +7437,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_221",
@@ -6812,7 +7472,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_222",
@@ -6844,7 +7507,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_223",
@@ -6876,7 +7542,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_224",
@@ -6908,7 +7577,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_225",
@@ -6940,7 +7612,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_226",
@@ -6972,7 +7647,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_227",
@@ -7003,7 +7681,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_228",
@@ -7035,7 +7716,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_229",
@@ -7067,7 +7751,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_230",
@@ -7099,7 +7786,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_231",
@@ -7131,7 +7821,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_232",
@@ -7163,7 +7856,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_233",
@@ -7195,7 +7891,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_234",
@@ -7227,7 +7926,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_235",
@@ -7259,7 +7961,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_236",
@@ -7291,7 +7996,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_237",
@@ -7323,7 +8031,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_238",
@@ -7355,7 +8066,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_239",
@@ -7395,7 +8109,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_240",
@@ -7427,7 +8144,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_241",
@@ -7459,7 +8179,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_242",
@@ -7491,7 +8214,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_243",
@@ -7523,7 +8249,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_244",
@@ -7555,7 +8284,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_245",
@@ -7587,7 +8319,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_246",
@@ -7618,7 +8353,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_247",
@@ -7649,7 +8387,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_248",
@@ -7680,7 +8421,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_249",
@@ -7712,7 +8456,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_250",
@@ -7745,7 +8492,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_251",
@@ -7777,7 +8527,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_252",
@@ -7809,7 +8562,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_253",
@@ -7840,7 +8596,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_254",
@@ -7871,7 +8630,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_255",
@@ -7903,7 +8665,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_256",
@@ -7936,7 +8701,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_257",
@@ -7966,7 +8734,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_258",
@@ -7995,7 +8766,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_259",
@@ -8024,7 +8798,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_260",
@@ -8053,7 +8830,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_261",
@@ -8082,7 +8862,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_262",
@@ -8111,7 +8894,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_263",
@@ -8140,7 +8926,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_264",
@@ -8172,7 +8961,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_265",
@@ -8202,7 +8994,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_266",
@@ -8233,7 +9028,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_267",
@@ -8264,7 +9062,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_268",
@@ -8292,7 +9093,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_269",
@@ -8321,7 +9125,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_270",
@@ -8350,7 +9157,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_271",
@@ -8379,7 +9189,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_272",
@@ -8408,7 +9221,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_273",
@@ -8437,7 +9253,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_274",
@@ -8466,7 +9285,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_275",
@@ -8498,7 +9320,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_276",
@@ -8532,7 +9357,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_277",
@@ -8563,7 +9391,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_278",
@@ -8594,7 +9425,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_279",
@@ -8625,7 +9459,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_280",
@@ -8656,7 +9493,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_281",
@@ -8687,7 +9527,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_282",
@@ -8718,7 +9561,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_283",
@@ -8749,7 +9595,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_284",
@@ -8781,7 +9630,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_285",
@@ -8813,7 +9665,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_286",
@@ -8845,7 +9700,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_287",
@@ -8877,7 +9735,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_288",
@@ -8909,7 +9770,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_289",
@@ -8941,7 +9805,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_290",
@@ -8974,7 +9841,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_291",
@@ -9006,7 +9876,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_292",
@@ -9037,7 +9910,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_293",
@@ -9069,7 +9945,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_294",
@@ -9101,7 +9980,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_295",
@@ -9133,7 +10015,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_296",
@@ -9165,7 +10050,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_297",
@@ -9197,7 +10085,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_298",
@@ -9229,7 +10120,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_299",
@@ -9262,7 +10156,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_300",
@@ -9294,7 +10191,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_301",
@@ -9327,7 +10227,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_302",
@@ -9359,7 +10262,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_303",
@@ -9391,7 +10297,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_304",
@@ -9422,7 +10331,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_385",
@@ -9454,7 +10366,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_386",
@@ -9486,7 +10401,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_387",
@@ -9517,7 +10435,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_388",
@@ -9549,7 +10470,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_389",
@@ -9580,7 +10504,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_390",
@@ -9612,7 +10539,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_391",
@@ -9647,7 +10577,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_392",
@@ -9678,7 +10611,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_393",
@@ -9708,7 +10644,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_394",
@@ -9741,7 +10680,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_395",
@@ -9773,7 +10715,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_396",
@@ -9806,7 +10751,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_397",
@@ -9839,7 +10787,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_398",
@@ -9872,7 +10823,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_399",
@@ -9904,7 +10858,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_400",
@@ -9942,7 +10899,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_401",
@@ -9975,7 +10935,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_402",
@@ -10010,7 +10973,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_403",
@@ -10047,7 +11013,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_404",
@@ -10083,7 +11052,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_405",
@@ -10112,7 +11084,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_406",
@@ -10141,7 +11116,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_407",
@@ -10185,7 +11163,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_408",
@@ -10218,7 +11199,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_409",
@@ -10250,7 +11234,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_410",
@@ -10281,7 +11268,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_411",
@@ -10315,7 +11305,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_412",
@@ -10345,7 +11338,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_413",
@@ -10375,7 +11371,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_414",
@@ -10404,7 +11403,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_415",
@@ -10437,7 +11439,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_416",
@@ -10469,7 +11474,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_417",
@@ -10501,7 +11509,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_418",
@@ -10533,7 +11544,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_419",
@@ -10564,7 +11578,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_420",
@@ -10598,7 +11615,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_421",
@@ -10632,7 +11652,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_422",
@@ -10666,7 +11689,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_423",
@@ -10698,7 +11724,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_424",
@@ -10730,7 +11759,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_425",
@@ -10762,7 +11794,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_426",
@@ -10794,7 +11829,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_427",
@@ -10826,7 +11864,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_428",
@@ -10858,7 +11899,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_429",
@@ -10891,7 +11935,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_430",
@@ -10923,7 +11970,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_431",
@@ -10958,7 +12008,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_432",
@@ -10987,7 +12040,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_433",
@@ -11016,7 +12072,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_434",
@@ -11048,7 +12107,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_435",
@@ -11092,7 +12154,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_436",
@@ -11121,7 +12186,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_437",
@@ -11151,7 +12219,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_438",
@@ -11184,7 +12255,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_439",
@@ -11221,7 +12295,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_440",
@@ -11252,7 +12329,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_441",
@@ -11283,7 +12363,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_442",
@@ -11316,7 +12399,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_443",
@@ -11350,7 +12436,10 @@ const PRODUCTS_DATA = [
       "garantia": "5 Años de garantía de alta calidad (No se pone negro ni cambia de color)",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_444",
@@ -11383,7 +12472,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_445",
@@ -11418,7 +12510,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_446",
@@ -11456,7 +12551,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_447",
@@ -11492,7 +12590,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_448",
@@ -11525,7 +12626,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_449",
@@ -11557,7 +12661,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_450",
@@ -11588,7 +12695,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_451",
@@ -11623,7 +12733,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_452",
@@ -11655,7 +12768,10 @@ const PRODUCTS_DATA = [
       "garantia": "Garantía de calidad de presentación y acabados",
       "origen": "Línea de Empaques de Lujo",
       "hipoalergenico": "Textil acolchado protector de joyas"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_453",
@@ -11685,7 +12801,10 @@ const PRODUCTS_DATA = [
       "garantia": "Garantía de calidad de presentación y acabados",
       "origen": "Línea de Empaques de Lujo",
       "hipoalergenico": "Textil acolchado protector de joyas"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_454",
@@ -11713,7 +12832,10 @@ const PRODUCTS_DATA = [
       "garantia": "Garantía de calidad de presentación y acabados",
       "origen": "Línea de Empaques de Lujo",
       "hipoalergenico": "Textil acolchado protector de joyas"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_455",
@@ -11742,7 +12864,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_456",
@@ -11772,7 +12897,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_457",
@@ -11804,7 +12932,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_458",
@@ -11837,7 +12968,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_459",
@@ -11869,7 +13003,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_460",
@@ -11899,7 +13036,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_461",
@@ -11931,7 +13071,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_462",
@@ -11964,7 +13107,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_463",
@@ -11995,7 +13141,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_464",
@@ -12027,7 +13176,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_465",
@@ -12058,7 +13210,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_466",
@@ -12090,7 +13245,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_467",
@@ -12122,7 +13280,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_468",
@@ -12156,7 +13317,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_469",
@@ -12187,7 +13351,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_470",
@@ -12218,7 +13385,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_471",
@@ -12250,7 +13420,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_472",
@@ -12280,7 +13453,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_473",
@@ -12310,7 +13486,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_474",
@@ -12340,7 +13519,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_475",
@@ -12373,7 +13555,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_476",
@@ -12404,7 +13589,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_477",
@@ -12437,7 +13625,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_478",
@@ -12469,7 +13660,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_479",
@@ -12502,7 +13696,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_480",
@@ -12535,7 +13732,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_481",
@@ -12568,7 +13768,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_482",
@@ -12602,7 +13805,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_483",
@@ -12634,7 +13840,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_484",
@@ -12665,7 +13874,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_485",
@@ -12698,7 +13910,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_486",
@@ -12731,7 +13946,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   },
   {
     "id": "prod_487",
@@ -12764,7 +13982,10 @@ const PRODUCTS_DATA = [
       "garantia": "1 Año de Garantía Oficial por cambio de tono",
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
-    }
+    },
+    "availability": "disponible",
+    "stock": 5,
+    "hidden": false
   }
 ];
 
