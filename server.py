@@ -510,6 +510,10 @@ class MaxJoyeriaHandler(http.server.SimpleHTTPRequestHandler):
         self.end_headers()
 
     def end_headers(self):
+        self.send_header('X-Frame-Options', 'SAMEORIGIN')
+        self.send_header('Strict-Transport-Security', 'max-age=31536000; includeSubDomains')
+        self.send_header('Referrer-Policy', 'strict-origin-when-cross-origin')
+        self.send_header('X-Content-Type-Options', 'nosniff')
         if self.path.endswith('.js') or self.path.endswith('.html'):
             self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
             self.send_header('Pragma', 'no-cache')

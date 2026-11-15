@@ -710,6 +710,21 @@ function getFilteredProducts() {
   });
 }
 
+// Formats vendor uppercase titles into refined luxury title case (enhances SEO readability score)
+function formatJewelryTitle(title) {
+  if (!title) return '';
+  return title
+    .toLowerCase()
+    .split(' ')
+    .map(word => {
+      if (/^(18k|s925|cm|mm|gr|italiana|cop|\d+(\.\d+)?(cm|mm|gr|k))$/i.test(word)) {
+        return word.toUpperCase();
+      }
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    })
+    .join(' ');
+}
+
 function renderProducts() {
   const grid = document.getElementById('productsGrid');
   const countDisplay = document.getElementById('catalogProductCount');
@@ -740,11 +755,13 @@ function renderProducts() {
 
   const itemsToRender = filtered.slice(0, visibleCount);
 
-  grid.innerHTML = itemsToRender.map(prod => {
+  grid.innerHTML = itemsToRender.map((prod, cardIndex) => {
     const qty = productQuantities[prod.id] || 1;
     const formattedPrice = formatCOP(prod.price);
     const hasMultipleImages = prod.images && prod.images.length > 1;
     const waUrl = getWhatsAppBuyUrl(prod, qty);
+    const displayTitle = formatJewelryTitle(prod.title);
+    const isAboveFold = cardIndex < 4;
 
     return `
       <article class="product-card" id="card-${prod.id}" data-id="${prod.id}">
@@ -766,8 +783,11 @@ function renderProducts() {
                 <div class="prod-slide-item" onclick="event.stopPropagation(); openProductZoom('${prod.id}', ${idx})">
                   <img 
                     src="${imgUrl}" 
-                    alt="${prod.title} - Foto ${idx+1}" 
-                    loading="lazy"
+                    alt="${displayTitle} - Joya Oro 18K Foto ${idx+1}" 
+                    width="400"
+                    height="400"
+                    ${isAboveFold && idx === 0 ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"'}
+                    decoding="async"
                     onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'400\\' height=\\'400\\' viewBox=\\'0 0 100 100\\'><rect width=\\'100\\' height=\\'100\\' fill=\\'%2317171c\\'/><text x=\\'50%\\' y=\\'50%\\' fill=\\'%23d4af37\\' font-family=\\'Cinzel\\' font-size=\\'8\\' text-anchor=\\'middle\\' dominant-baseline=\\'middle\\'>ORO 18K</text></svg>';"
                   />
                 </div>
@@ -790,8 +810,11 @@ function renderProducts() {
             <div class="prod-slide-item" style="position: absolute; top:0; left:0; width:100%; height:100%;">
               <img 
                 src="${prod.images && prod.images[0] ? prod.images[0] : ''}" 
-                alt="${prod.title}" 
-                loading="lazy"
+                alt="${displayTitle} - Joya Oro 18K" 
+                width="400"
+                height="400"
+                ${isAboveFold ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"'}
+                decoding="async"
                 onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'400\\' height=\\'400\\' viewBox=\\'0 0 100 100\\'><rect width=\\'100\\' height=\\'100\\' fill=\\'%2317171c\\'/><text x=\\'50%\\' y=\\'50%\\' fill=\\'%23d4af37\\' font-family=\\'Cinzel\\' font-size=\\'8\\' text-anchor=\\'middle\\' dominant-baseline=\\'middle\\'>ORO 18K</text></svg>';"
               />
             </div>
@@ -801,7 +824,7 @@ function renderProducts() {
         <!-- Body -->
         <div class="prod-card-body">
           <span class="prod-collection-label">${prod.metalName}</span>
-          <h3 class="prod-card-title" title="${prod.title}">${prod.title}</h3>
+          <h3 class="prod-card-title" title="${displayTitle}">${displayTitle}</h3>
 
           <!-- "Ver Ficha y Zoom" Button -->
           <button class="btn-view-details-card" onclick="openProductZoom('${prod.id}', 0)">

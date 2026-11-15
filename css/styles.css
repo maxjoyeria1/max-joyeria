@@ -435,10 +435,14 @@ button {
 }
 
 .catalog-hero-top .section-title {
-  font-size: clamp(1.25rem, 2vw, 1.65rem);
+  font-size: clamp(1.4rem, 2.6vw, 2rem);
+  font-weight: 700;
+  letter-spacing: 0.05em;
   margin-bottom: 0;
-  line-height: 1.1;
+  line-height: 1.15;
   text-align: center;
+  color: var(--text-primary);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 .catalog-live-count {
@@ -1484,9 +1488,125 @@ button {
 }
 
 /* ==========================================================================
-   RESPONSIVE
+   ZERO-CLS SKELETON PLACEHOLDERS & SHIMMER
    ========================================================================== */
-@media (max-width: 1024px) {
+.skeleton-card {
+  pointer-events: none;
+  background: var(--bg-surface);
+}
+
+.skeleton-box {
+  background: linear-gradient(90deg, rgba(200, 200, 210, 0.08) 25%, rgba(200, 200, 210, 0.18) 50%, rgba(200, 200, 210, 0.08) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+.skeleton-line {
+  background: linear-gradient(90deg, rgba(200, 200, 210, 0.08) 25%, rgba(200, 200, 210, 0.18) 50%, rgba(200, 200, 210, 0.08) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 4px;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* ==========================================================================
+   TRUST & QUALITY SECTION (SEO & CONFIDENCE BOOST)
+   ========================================================================== */
+.trust-quality-section {
+  padding: 48px 0;
+  background: var(--bg-surface);
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.trust-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.trust-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 24px 20px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  transition: transform var(--transition-fast), border-color var(--transition-fast);
+}
+
+.trust-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--gold-border);
+}
+
+.trust-icon-box {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-full);
+  background: rgba(223, 183, 108, 0.12);
+  border: 1px solid rgba(223, 183, 108, 0.3);
+  color: var(--gold-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.trust-card-title {
+  font-family: var(--font-serif);
+  font-size: 1.12rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+  letter-spacing: 0.02em;
+}
+
+.trust-card-text {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* ==========================================================================
+   MULTI-DEVICE RESPONSIVE SYSTEM (PC, IPAD PRO, TABLET, MOBILE)
+   ========================================================================== */
+
+/* Large Desktop (>= 1200px) */
+@media (min-width: 1200px) {
+  .products-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+}
+
+/* Laptops & iPad Pro Landscape (992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .zoom-dialog-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Tablets & iPad Portrait (640px to 991px) */
+@media (min-width: 640px) and (max-width: 991px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+  .trust-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .zoom-dialog-grid {
     grid-template-columns: 1fr;
   }
@@ -1499,22 +1619,138 @@ button {
   }
 }
 
-@media (max-width: 768px) {
-  .products-grid {
-    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+/* Mobile Smartphones (< 640px) */
+@media (max-width: 639px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
   }
+  
+  .header-inner {
+    height: 56px;
+  }
+  
+  .brand-logo-img {
+    width: 44px;
+    height: 44px;
+  }
+  
+  .brand-title {
+    font-size: 1.05rem;
+    letter-spacing: 0.08em;
+  }
+  
+  .brand-subtitle {
+    font-size: 0.54rem;
+    letter-spacing: 0.14em;
+  }
+
+  .btn-whatsapp-header {
+    padding: 7px 12px;
+    font-size: 0.74rem;
+    gap: 6px;
+  }
+
+  .theme-toggle-btn {
+    padding: 7px 10px;
+    font-size: 0.72rem;
+  }
+
+  /* Catalog Top Centered Zone */
   .catalog-hero-top {
     flex-direction: column;
     gap: 6px;
     min-height: auto;
   }
+  
   .catalog-live-count {
     position: static;
     transform: none;
     justify-content: center;
+    font-size: 0.75rem;
   }
+
+  .section-title {
+    font-size: 1.35rem;
+  }
+  
+  .eyebrow {
+    font-size: 0.64rem;
+    letter-spacing: 0.12em;
+  }
+
+  /* 2-Column Luxury Mobile Grid */
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .product-card {
+    border-radius: var(--radius-md);
+  }
+
+  .prod-card-body {
+    padding: 10px 8px;
+  }
+
+  .prod-collection-label {
+    font-size: 0.62rem;
+    margin-bottom: 3px;
+  }
+
+  .prod-card-title {
+    font-size: 0.82rem;
+    min-height: 36px;
+    line-height: 1.3;
+    margin-bottom: 6px;
+  }
+
+  .btn-view-details-card {
+    padding: 5px 8px;
+    font-size: 0.7rem;
+    margin-bottom: 6px;
+  }
+
+  .prod-clean-price-box {
+    padding: 6px 8px;
+  }
+
+  .prod-price-label {
+    font-size: 0.62rem;
+  }
+
+  .prod-price-value {
+    font-size: 0.92rem;
+  }
+
+  .card-tag-metal, .card-tag-ref {
+    font-size: 0.58rem;
+    padding: 2px 6px;
+  }
+
+  .card-zoom-pill {
+    font-size: 0.62rem;
+    padding: 3px 6px;
+  }
+
+  .zoom-dialog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .zoom-stage-column {
+    border-right: none;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  /* Trust Section on Mobile */
+  .trust-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
   .footer-top-grid {
     grid-template-columns: 1fr;
+    gap: 28px;
   }
 }
 
