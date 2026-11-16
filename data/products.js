@@ -1,5 +1,9 @@
-// Auto-generated catalogue database with 407 products from orolaminado18.com
-// Enriched with real authentic descriptions, features, and technical specifications
+/**
+ * MAX JOYERÍA - CATÁLOGO OFICIAL DE ORO 18K Y ORO LAMINADO
+ * Base de datos actualizada con precios, stock y visibilidad oficial
+ * Exportado desde Panel Administrador: 16/11/2026, 12:24:36 p. m.
+ */
+
 const PRODUCTS_DATA = [
   {
     "id": "prod_1",
@@ -30,9 +34,9 @@ const PRODUCTS_DATA = [
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
     },
-    "availability": "disponible",
+    "availability": "agotado",
     "stock": 8,
-    "hidden": true
+    "hidden": false
   },
   {
     "id": "prod_2",
@@ -63,7 +67,7 @@ const PRODUCTS_DATA = [
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
     },
-    "availability": "disponible",
+    "availability": "sobre_pedido",
     "stock": 5,
     "hidden": false
   },
@@ -131,7 +135,7 @@ const PRODUCTS_DATA = [
     },
     "availability": "disponible",
     "stock": 5,
-    "hidden": false
+    "hidden": true
   },
   {
     "id": "prod_5",
@@ -13989,6 +13993,6 @@ const PRODUCTS_DATA = [
   }
 ];
 
-if (typeof module !== "undefined" && module.exports) {
-  module.exports = { PRODUCTS_DATA };
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = PRODUCTS_DATA;
 }
