@@ -1,7 +1,7 @@
 /**
  * MAX JOYERÍA - CATÁLOGO OFICIAL DE ORO 18K Y ORO LAMINADO
  * Base de datos actualizada con precios, stock y visibilidad oficial
- * Exportado desde Panel Administrador: 16/11/2026, 12:24:36 p. m.
+ * Exportado desde Panel Administrador: 16/11/2026, 8:00:41 p. m.
  */
 
 const PRODUCTS_DATA = [
@@ -34,7 +34,7 @@ const PRODUCTS_DATA = [
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
     },
-    "availability": "agotado",
+    "availability": "disponible",
     "stock": 8,
     "hidden": false
   },
@@ -67,7 +67,7 @@ const PRODUCTS_DATA = [
       "origen": "Italia / Orfebrería Fina",
       "hipoalergenico": "100% Libre de Níquel (Hipoalergénico Certificado)"
     },
-    "availability": "sobre_pedido",
+    "availability": "disponible",
     "stock": 5,
     "hidden": false
   },
